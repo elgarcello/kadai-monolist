@@ -44,3 +44,27 @@ footer{
   font-weight: bold;
   letter-spacing: 0.15em;
 }
+
+.search {
+  margin-bottom: 20px;
+}
+
+.item .panel-body {
+  height: 70px;
+}
+
+.item .panel-heading {
+  height: 250px;
+}
+
+.item .pabel-heading img {
+  height: 100%;
+  max-width: 100%;
+}
+
+p.item-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
