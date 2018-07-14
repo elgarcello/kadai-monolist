@@ -111,3 +111,7 @@ p.item-title {
   font-size: 18px
 }
 
+
+.buttons.text-center form {
+    display: inline-block;
+}
