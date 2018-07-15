@@ -1,4 +1,4 @@
-<h1>Wantランキング</h1>
+<h1>Haveランキング</h1>
 <% if @items.present? %>
   <div class="row">
     <% @items.each_with_index do |item, index| %>
@@ -21,7 +21,7 @@
             </div>
             <div class="panel-fotter">
               <p class="text-center">
-                <%= index+1 %>位：<%= @ranking_counts[item.id] %>Wants
+                <%= index+1 %>位：<%= @ranking_counts[item.id] %>have
               </p>
             </div>
           </div>
